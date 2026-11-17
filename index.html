@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -22,7 +21,7 @@
   --max: 1220px;
 }
 
-* { box-sizing: border-box; margin: 0; padding: 0; }
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 html { scroll-behavior: smooth; scroll-padding-top: 100px; }
 
@@ -69,6 +68,7 @@ button { font: inherit; }
   height: 105px;
   object-fit: contain;
   margin-bottom: 18px;
+  border-radius: 50%;
 }
 
 .preloader strong {
@@ -132,9 +132,10 @@ header.scrolled {
 }
 
 .brand img {
-  width: 62px;
-  height: 62px;
-  object-fit: contain;
+  width: 55px;
+  height: 55px;
+  object-fit: cover;
+  border-radius: 50%;
   transition: transform .4s ease;
 }
 
@@ -845,7 +846,7 @@ footer {
 
 <div class="preloader" id="preloader">
   <div class="preloader-inner">
-    <img src="logo-rln.png" alt="Logo RLN">
+    <img src="Gemini_Generated_Image_o4izg7o4izg7o4iz.jpg" alt="Logo Relève Nationale">
     <strong>RELÈVE NATIONALE</strong>
     <small>POUR LA NATION ET SON AVENIR</small>
   </div>
@@ -856,7 +857,7 @@ footer {
 <header id="header">
   <div class="container header-inner">
     <a class="brand" href="#accueil">
-      <img src="logo-rln.png" alt="Logo RLN">
+      <img src="Gemini_Generated_Image_o4izg7o4izg7o4iz.jpg" alt="Logo Relève Nationale">
       <span>
         <span class="brand-name">RELÈVE NATIONALE</span>
         <span class="brand-motto">Pour la nation et son avenir</span>
